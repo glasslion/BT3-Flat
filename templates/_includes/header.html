@@ -19,15 +19,10 @@
 <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
 
 <!-- CSS TEMPLATE -->
-<link href="{{SITEURL}}/theme/css/reset.css" rel="stylesheet" type="text/css" />
-<link href="{{SITEURL}}/theme/css/framework.css" rel="stylesheet" type="text/css" />
-<link href="{{SITEURL}}/theme/css/typography.css" rel="stylesheet" type="text/css" />
-<link href="{{SITEURL}}/theme/css/layout.css" rel="stylesheet" type="text/css" />
+{% assets filters="cssmin", output="css/style.min.css", "css/reset.css", "css/framework.css", "css/typography.css", "css/layout.css", "css/fonts.css", "css/blog.css", "css/pygment.css" %}
+    <link rel="stylesheet" href="{{ SITEURL }}/{{ ASSET_URL }}">
+{% endassets %}
 
-<link href="{{SITEURL}}/theme/css/fonts.css" rel="stylesheet" type="text/css" />
-
-<link href="{{SITEURL}}/theme/css/blog.css" rel="stylesheet" type="text/css" />
-<link href="{{SITEURL}}/theme/css/pygment.css" rel="stylesheet" type="text/css" />
 
 <!-- ICONS -->
 {% if FAVICON %}
