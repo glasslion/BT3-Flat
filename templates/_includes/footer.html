@@ -36,7 +36,10 @@
 
 
 <!-- PLUGINS -->
-{% assets filters="uglifyjs", output="js/plugins.js", "js/jquery.fitvids.min.js", "js/jquery.appear.js", "js/jquery.superslides.min.js", "js/owl.carousel.min.js", "js/jquery.carouFredSel-6.2.1-packed.js", "js/jquery.countTo.js", "js/jquery.magnific-popup.min.js", "js/holder.js" %}
+
+<script type="text/javascript" src="{{QINIU_BUCKET_URL}}/theme/js/owl.carousel.min.js"></script>
+
+{% assets filters="uglifyjs", output="js/plugins.js", "js/jquery.fitvids.min.js", "js/jquery.appear.js", "js/jquery.superslides.min.js", "js/jquery.carouFredSel-6.2.1-packed.js", "js/jquery.countTo.js", "js/jquery.magnific-popup.min.js", "js/holder.js" %}
     <script src="{{ QINIU_BUCKET_URL }}/{{ ASSET_URL }}"></script>
 {% endassets %}
 <!-- delete on production -->
