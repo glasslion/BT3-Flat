@@ -20,7 +20,7 @@
 
 <!-- CSS TEMPLATE -->
 {% assets filters="cssmin", output="css/style.min.css", "css/reset.css", "css/framework.css", "css/typography.css", "css/layout.css", "css/fonts.css", "css/blog.css", "css/pygment.css" %}
-    <link rel="stylesheet" href="{{ SITEURL }}/{{ ASSET_URL }}">
+    <link rel="stylesheet" href="{{ QINIU_BUCKET_URL }}/{{ ASSET_URL }}">
 {% endassets %}
 
 
@@ -39,7 +39,7 @@
 <meta name="viewport" content="width=device-width, maximum-scale=1, initial-scale=1, user-scalable=0" />
 
 <!-- Morenizr -->
-<script type="text/javascript" src="{{SITEURL}}/theme/js/modernizr.min.js"></script>
+<script type="text/javascript" src="{{QINIU_BUCKET_URL}}/theme/js/modernizr.min.js"></script>
 
 <!-- google authorship -->
 {% for title, link in SOCIAL%}
