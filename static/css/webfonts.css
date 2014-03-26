@@ -1,0 +1,42 @@
+@font-face {
+    font-family: "Dosis";
+    font-style: normal;
+    font-weight: 300;
+    src: url(http://wing2south.qiniudn.com/theme/font/Dosis-Light.eot);
+    src: local("Dosis Light"), local("Dosis-Light"), url(http://wing2south.qiniudn.com/theme/font/Dosis-Light.eot?#iefix) format("embedded-opentype"), url(http://wing2south.qiniudn.com/theme/font/Dosis-Light.woff) format("woff"), url(http://wing2south.qiniudn.com/theme/font/Dosis-Light.ttf) format("truetype")
+    }
+@font-face {
+    font-family: "Dosis";
+    font-style: normal;
+    font-weight: 400;
+    src: url(http://wing2south.qiniudn.com/theme/font/Dosis-Regular.eot);
+    src: local("Dosis Regular"), local("Dosis-Regular"), url(http://wing2south.qiniudn.com/theme/font/Dosis-Regular.eot?#iefix) format("embedded-opentype"), url(http://wing2south.qiniudn.com/theme/font/Dosis-Regular.woff) format("woff"), url(http://wing2south.qiniudn.com/theme/font/Dosis-Regular.ttf) format("truetype")
+    }
+@font-face {
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 300;
+    src: url(http://wing2south.qiniudn.com/theme/font/OpenSans-Light.eot);
+    src: local("Open Sans Light"), local("OpenSans-Light"), url(http://wing2south.qiniudn.com/theme/font/OpenSans-Light.eot?#iefix) format("embedded-opentype"), url(http://wing2south.qiniudn.com/theme/font/OpenSans-Light.woff) format("woff"), url(http://wing2south.qiniudn.com/theme/font/OpenSans-Light.ttf) format("truetype")
+    }
+@font-face {
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 400;
+    src: url(http://wing2south.qiniudn.com/theme/font/OpenSans.eot);
+    src: local("Open Sans"), local("OpenSans"), url(http://wing2south.qiniudn.com/theme/font/OpenSans.eot?#iefix) format("embedded-opentype"), url(http://wing2south.qiniudn.com/theme/font/OpenSans.woff) format("woff"), url(http://wing2south.qiniudn.com/theme/font/OpenSans.ttf) format("truetype")
+    }
+@font-face {
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 700;
+    src: url(http://wing2south.qiniudn.com/theme/font/OpenSans-Bold.eot);
+    src: local("Open Sans Bold"), local("OpenSans-Bold"), url(http://wing2south.qiniudn.com/theme/font/OpenSans-Bold.eot?#iefix) format("embedded-opentype"), url(http://wing2south.qiniudn.com/theme/font/OpenSans-Bold.woff) format("woff"), url(http://wing2south.qiniudn.com/theme/font/OpenSans-Bold.ttf) format("truetype")
+    }
+@font-face {
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 800;
+    src: url(http://wing2south.qiniudn.com/theme/font/OpenSans-Extrabold.eot);
+    src: local("Open Sans Extrabold"), local("OpenSans-Extrabold"), url(http://wing2south.qiniudn.com/theme/font/OpenSans-Extrabold.eot?#iefix) format("embedded-opentype"), url(http://wing2south.qiniudn.com/theme/font/OpenSans-Extrabold.woff) format("woff"), url(http://wing2south.qiniudn.com/theme/font/OpenSans-Extrabold.ttf) format("truetype")
+    }

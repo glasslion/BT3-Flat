@@ -1,0 +1,12 @@
+@font-face {
+    font-family: "Dosis";
+    font-style: normal;
+    font-weight: 400;
+    src: local("Dosis Regular"), local("Dosis-Regular"), url(http://wing2south.qiniudn.com/theme/font/Dosis-Regular.eot)
+    }
+@font-face {
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 400;
+    src: local("Open Sans"), local("OpenSans"), url(http://wing2south.qiniudn.com/theme/font/OpenSans.eot)
+    }
